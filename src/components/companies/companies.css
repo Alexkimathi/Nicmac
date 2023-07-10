@@ -1,0 +1,23 @@
+.c-container{
+    justify-content:space-between;
+    gap: 1rem;
+  
+}
+.c-container > img{
+    width: 20rem;
+    padding: 5rem;
+    
+}
+/*media query phones */
+@media screen and (max-width: 600px) {
+ 
+    .c-container >  img{
+        display: block;
+        align-items: center;
+        width: 10rem;
+        padding: .3rem;
+        margin-left:6rem;
+    
+        
+    }
+  }

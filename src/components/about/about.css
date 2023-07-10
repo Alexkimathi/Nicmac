@@ -1,0 +1,68 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+.card {
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+    max-width: 35rem;
+    /* margin: auto; */
+    text-align: center;
+    border-radius: 2rem;
+    margin-top: 0;
+    padding: 4rem;
+   
+
+  }
+.heading{
+    font-size: 3.5rem;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+}
+
+  
+.card_link{
+    font-size: 1.6rem;
+}
+
+/*media query phones */
+@media screen and (max-width: 600px) {
+    .about{
+        display: block;
+        margin: .4rem;
+    }
+    .card {
+        box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+        /* width:50%; */
+        /* margin: auto; */
+        text-align: center;
+        border-radius: .2rem;
+        margin-top: 0;
+        padding: .4rem;
+        width: fit-content;
+       
+    
+      }
+      .heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .card_link{
+        font-size: .6rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .about{
+        width: 90%;
+    }
+ 
+   
+  }
+  
