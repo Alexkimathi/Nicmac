@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 5rem;
+ 
   
 }
 .flexColEnd {
@@ -47,16 +47,18 @@
   align-items: flex-end;
 }
 
+
 .primaryText {
   color: #1f3e72;
   font-weight: bold;
   font-size: 3.5rem;
+  padding-left: 1rem;
 
 }
 
 .secondaryText {
   color: rgb(140 139 139);
-  font-size: 0.9rem;
+  font-size: 1.6rem;
   padding-left: 1rem;
 
 }
@@ -64,31 +66,32 @@
   color: orange;
   font-size: 3rem;
   font-weight: 600;
+  padding-left: 1rem;
  
 }
 
 .r-container{
   overflow: hidden;
+  flex-wrap: wrap;
   /* position: relative; */
 }
 
 
 .r-head{
-  margin: 5rem;
+  /* margin: 5rem; */
 }
 .r-card{
   gap: 0.6rem;
-  /* padding: 1rem; */
   border-radius: 10px;
   max-width: 40rem;
   margin:auto;
   transition: all 300ms ease-in;
-  /*   */
+
 
 }
 .r-card > img{
   width: 100%;
-  max-width: 40rem;
+  /* max-width: 40rem; */
   border-radius: 1rem;
   height: 20rem;
 }
@@ -141,6 +144,11 @@
 }
 .r-buttons > :nth-child(2){
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.r-wrapper{
+  background-color: rgba(248, 247, 247, 0.9);
+  max-width: fit-content;
 }
 
 
