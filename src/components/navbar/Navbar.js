@@ -103,7 +103,7 @@ function Navbar() {
         </div>
         <div className="nav_btn">
           <button className="btn btn-1" >view Property</button>
-          {/* <button className="btn btn-2">Diaspora</button> */}
+          <button className="btn btn-2">Diaspora</button>
         </div>
       </div>
     </>
