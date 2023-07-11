@@ -1,12 +1,12 @@
 .c-container{
-    justify-content:space-between;
+    justify-content:space-around;
     gap: 1rem;
     margin-left: 5rem;
   
 }
 
 .c-container > img{
-    width: 10rem;
+    width: 8rem;
     margin: 5rem;
     
 }
