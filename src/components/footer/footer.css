@@ -1,0 +1,103 @@
+.footer{
+    background-color: rgba(93, 88, 88, 0.882);
+    padding: 2rem;
+    display: flex;
+ 
+    
+
+}
+.lg-1{
+    width: 25rem;
+    height: 7rem;
+    /* margin-left: 5rem; */
+    /* padding: 2rem; */
+    
+
+}
+.footer-desc{
+    color: white;
+    
+   
+
+}
+.footer-sec-1{
+    margin: 5rem;
+    max-width: 40rem;
+    line-height: 3rem;
+
+}
+.footer-sect-2{
+    margin-top: 5rem;
+    max-width: 60rem;
+    color: white;
+
+}
+.icons{
+    font-size: 2rem;
+}
+.iconss{
+    font-size: 3.5rem;
+
+}
+.footer-contacts{
+    display: block;
+    list-style: none;
+    font-size: 1.8rem;
+   
+    
+}
+.footer-socials{
+    display: flex;
+    list-style: none;
+    
+}
+
+
+
+.footer-sect-3{
+    margin-top: 5rem;
+    max-width: 40rem;
+    color: white;
+    margin-left: 5rem;
+    font-size: 1.8rem;
+   
+
+}
+
+
+
+.footer-nav-links {
+    /* color: #fff; */
+    text-decoration: none;
+    padding: .1rem 1rem;
+    height: 100%;
+    border-bottom: .1rem solid transparent;
+    color: white;
+  }
+  
+  .footer-nav-item {
+    line-height: 3rem;
+    list-style: none;
+    font-size: 1.8rem;
+  
+  }
+
+  .footer h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: .3rem;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #ffdd40;
+  }

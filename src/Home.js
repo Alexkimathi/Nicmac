@@ -4,6 +4,7 @@ import Slider from './components/slider/Slider'
 import About from './components/about/About'
 import Companies from './components/companies/Companies';
 import Properties from './components/properties/Properties';
+import Footer from './components/footer/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Companies />
         <About />
         <Properties />
+        <Footer />
     </div>
   )
 }

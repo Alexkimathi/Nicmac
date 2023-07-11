@@ -73,7 +73,7 @@
 .r-container{
   overflow: hidden;
   flex-wrap: wrap;
-  margin: 5rem;
+  margin-top: 5rem;
   /* position: relative; */
 }
 
@@ -151,6 +151,7 @@
 .r-wrapper{
   background-color: rgba(248, 247, 247, 0.9);
   margin-top: 8rem;
+  
   
 }
 
