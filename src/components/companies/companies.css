@@ -3,10 +3,12 @@
     gap: 1rem;
   
 }
-.c-container > img{
-    width: 15rem;
-    padding: 3rem;
-    margin-right: 5rem;
+
+ img{
+    width: 10rem;
+    margin: 5rem;
+    /* margin-right: 5rem; */
+    justify-content: space-between;
     
 }
 /*media query phones */
