@@ -34,14 +34,14 @@ const properties = [
       },
       {
         id: 5,
-        name: "Aliva Priva Jardin",
+        name: "Thika",
         price: "47,043",
         detail: "Nairobi County, Kenya",
         image: pic2
       },
       {
         id: 5,
-        name: "Aliva Priva Jardin",
+        name: "Nanyuki",
         price: "47,043",
         detail: "Nairobi County, Kenya",
         image: pic2
