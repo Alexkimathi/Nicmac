@@ -4,11 +4,10 @@
   
 }
 
- img{
-    width: 10rem;
-    margin: 5rem;
+.c-container > img{
+    width: 5rem;
+    margin: 3rem;
     /* margin-right: 5rem; */
-    justify-content: space-between;
     
 }
 /*media query phones */
