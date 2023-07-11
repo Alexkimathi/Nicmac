@@ -1,44 +1,50 @@
 import pic1 from "../../img/land1.jpg"
 import pic2 from "../../img/land4.jpg"
+import pic3 from '../../img/land5.jpg'
+import pic4 from '../../img/land6.webp'
 
 const properties = [
     {
         id: 1,
-        name: "Aliva Priva Jardin",
-        price: "47,043",
-        detail: "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+        name: "Kamakis",
+        price: "47",
+        detail: "Nairobi County, Kenya",
         image: pic1
       },
       {
         id: 2,
-        name: "Aliva Priva Jardin",
+        name: "Ruiru",
         price: "47,043",
-        detail: "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+        detail: "Nairobi County, Kenya",
         image: pic2
       },
       {
-        "name": "Citralan Puri Serang",
-        "price": "35,853",
-        "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-        "image": "./r3.png"
+        id: 3,
+        name: "Rongai",
+        price: "47,043",
+        detail: "Nairobi County, Kenya",
+        image: pic3
       },
       {
-        "name": "Aliva Priva Jardin",
-        "price": "47,043",
-        "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-        "image": "./r1.png"
+        id: 4,
+        name: "Kitengela",
+        price: "47,043",
+        detail: "Nairobi County, Kenya",
+        image: pic4
       },
       {
-        "name": "Asatti Garden City",
-        "price": "66,353",
-        "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-        "image": "./r2.png"
+        id: 5,
+        name: "Aliva Priva Jardin",
+        price: "47,043",
+        detail: "Nairobi County, Kenya",
+        image: pic2
       },
       {
-        "name": "Citralan Puri Serang",
-        "price": "35,853",
-        "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-        "image": "./r3.png"
+        id: 5,
+        name: "Aliva Priva Jardin",
+        price: "47,043",
+        detail: "Nairobi County, Kenya",
+        image: pic2
       }
    
 ]
