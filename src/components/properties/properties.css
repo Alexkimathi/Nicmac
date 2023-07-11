@@ -1,29 +1,4 @@
 
-
-
-/* 
-:root {
-  --primary: #1f3e72;
-  --secondary: rgba(255, 255, 255, 0.78);
-  --black: #131110;
-  --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
-  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
-  --blue: #4066ff;
-  --lightBlue: #eeeeff;
-  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-} */
-/* a {
-  color: inherit;
-  text-decoration: none;
-}
 .paddings {
   padding: 1.5rem;
 }
@@ -62,6 +37,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 5rem;
+  
 }
 .flexColEnd {
   display: flex;
@@ -73,18 +50,22 @@
 .primaryText {
   color: #1f3e72;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3.5rem;
+
 }
 
 .secondaryText {
   color: rgb(140 139 139);
   font-size: 0.9rem;
+  padding-left: 1rem;
+
 }
 .orangeText {
   color: orange;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 600;
-} */
+ 
+}
 
 .r-container{
   overflow: hidden;
@@ -102,7 +83,7 @@
   max-width: 40rem;
   margin:auto;
   transition: all 300ms ease-in;
-  /* box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.1); */
+  /*   */
 
 }
 .r-card > img{
@@ -164,30 +145,34 @@
 
 
 /* media queries */
-@media (min-width: 1536px) {
-  .innerWidth {
-    max-width: 1280px;
-    margin: auto;
+@media screen and (max-width: 600px) {
+  
+  .r-card{
+  
+    border-radius: 10px;
+    /* width: 100%; */
+    /* margin:2rem; */
+    transition: all 300ms ease-in;
+    margin: 0;
+    /*   */
+  
   }
-}
-
-@media (min-width: 640px) {
-  .paddings {
-    padding: 4rem;
+  .r-head{
+    /* margin-top: 5rem; */
   }
-}
-
-@media (min-width: 1280px), (min-width: 768px) {
-  .paddings {
-    padding: 2rem;
+  .r-card > img{
+    width: 90%;
+    /* max-width: 40rem; */
+    border-radius: 1rem;
+    height: 20rem;
   }
-}
-
-@media (max-width: 640px) {
   .primaryText {
-    font-size: 1.5rem;
+    font-size: 2rem;
+   
   }
   .orangeText {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
+ 
+ 
 }
