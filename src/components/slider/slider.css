@@ -93,17 +93,10 @@ article.nextSlide {
   .person-img {
     
   
-    /* border: 4px solid hsl(210, 31%, 80%);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200vh; */
+ 
     height: 30vh;
     /* width:auto; */
-    width: 100%;
+    width: 95%;
    
   
    
