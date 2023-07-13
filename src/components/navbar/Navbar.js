@@ -13,7 +13,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
         <div className="contact">
           <ul className="contacts">
             <li>
@@ -43,7 +43,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
       <div className="nav_linkss">
         <img src={logo} alt="logo" className="lg" />
         <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -98,12 +98,14 @@ function Navbar() {
             </NavLink>
           </li>
         </ul>
-        <div className="nav-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-        </div>
+        
         <div className="nav_btn">
           <button className="btn" >view Property</button>
           <button className="btn">Diaspora</button>
+        </div>
+
+        <div className="nav-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
       </div>
     </>

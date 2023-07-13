@@ -91,8 +91,8 @@ article.nextSlide {
    width: auto;
   }
   .person-img {
-    width:90vw;
-    object-fit:cover;
+    
+  
     /* border: 4px solid hsl(210, 31%, 80%);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     max-width: 100%;
@@ -101,7 +101,46 @@ article.nextSlide {
     margin-left: auto;
     margin-right: auto;
     height: 200vh; */
+    height: 30vh;
+    /* width:auto; */
+    width: 50%;
+   
   
    
   }
+  .position{
+    object-fit:cover;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  
+.section {
+  width: 100%;
+
+}
+
+
+
+
+.section-center {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+article {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  /* height: 50vh; */
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+ 
 }
