@@ -18,7 +18,7 @@ function About() {
           NicMac Ventures help you find the home of your dreams within the
           Kenyan territory where you can build a home.
         </p>
-        <Link className="card_link">View More</Link>
+        {/* <Link className="card_link">View More</Link> */}
       </div>
       <div className="card">
         <img src={image2} alt="Denim Jeans" />
@@ -26,7 +26,7 @@ function About() {
         <p>
         Commercial property usually refers to land used to generate a profit, as well as large residential rental properties.
         </p>
-        <Link className="card_link">View More</Link>
+        {/* <Link className="card_link">View More</Link> */}
       </div>
       <div className="card">
         <img src={image3} alt="Denim Jeans" />
@@ -35,7 +35,7 @@ function About() {
         NicMac Ventures help you find the home of your dreams within the
           Kenyan territory where you can build a home.
         </p>
-        <Link className="card_link">View More</Link>
+        {/* <Link className="card_link">View More</Link> */}
       </div>
     </div>
     </>
