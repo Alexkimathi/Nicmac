@@ -193,7 +193,7 @@
     
   }
     .flexColStart{
-        width: 90%;
+        width: max-content;
     }
  
  
