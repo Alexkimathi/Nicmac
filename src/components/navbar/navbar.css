@@ -96,23 +96,24 @@ li {
     padding-top: 1rem;
   }
   .contact {
-    width: 65%;
+    width: 100%;
   }
   .contacts {
     display: block;
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 80%;
+    width: 100%;
+    font-size: 2rem;
   }
   .socials {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0;
     margin: 0;
   }
 
   .nav_linkss > .lg {
-    width: 40%;
+    width: 90%;
     height: 5rem;
     padding: 0;
     margin: 1rem;
@@ -124,7 +125,7 @@ li {
   .nav_btn .btn {
     padding: 1rem 1.2rem;
     display: flexbox;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin: 1.5rem;
     border-radius: 1rem;
