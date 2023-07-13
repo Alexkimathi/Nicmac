@@ -173,7 +173,7 @@
     /* margin-top: 5rem; */
   }
   .r-card > img{
-    width: 80%;
+    width: 90%;
     /* max-width: 40rem; */
     border-radius: 1rem;
     height: 20rem;
@@ -188,22 +188,13 @@
   .r-wrapper{
     background-color: rgba(248, 247, 247, 0.9);
     margin-top: 8rem;
-    max-width: 95%;
+    width: 80%;
     
     
   }
-  .r-card:hover{
-    max-width: 90%;
-    scale: 1.025;
-    cursor: pointer;
-    background: linear-gradient(
-      180deg,
-      rgba(255,255,255,0) 0%,
-      rgba(136,160,255,0.46)217.91%
-    );
-    box-shadow: 0px72px 49px -51px rgba(136, 160,255,0.21);
-  }
-   
+    .flexColStart{
+        width: 90%;
+    }
  
  
 }
